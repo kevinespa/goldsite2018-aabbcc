@@ -9,7 +9,12 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 
-mongoose.connect('mongodb://sitegold:cristo100%@goldsite-shard-00-00-izmvl.mongodb.net:27017,goldsite-shard-00-01-izmvl.mongodb.net:27017,goldsite-shard-00-02-izmvl.mongodb.net:27017/test?ssl=true&replicaSet=goldsite-shard-0&authSource=admin&retryWrites=true',{ useNewUrlParser: true );
+//mongoose.connect('mongodb://sitegold:cristo100%@goldsite-shard-00-00-izmvl.mongodb.net:27017,goldsite-shard-00-01-izmvl.mongodb.net:27017,goldsite-shard-00-02-izmvl.mongodb.net:27017/test?ssl=true&replicaSet=goldsite-shard-0&authSource=admin&retryWrites=true',{ useNewUrlParser: true );
+
+
+
+
+ 
 
 app.set('port', process.env.PORT || 3000);
 
